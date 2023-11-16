@@ -1,0 +1,34 @@
+
+body {
+    color: red;
+    border: 1px solid black;
+    margin: 30px;
+    text-transform: none;
+}
+p {
+    border: inherit;
+    margin: inherit;
+}
+
+a:hover{
+    color: aqua;
+    background-color: aliceblue;
+    
+}
+
+.had:hover{
+    background-color: aqua;
+}
+a:visited{
+    color:green
+}
+
+
+a{
+    border: none;
+}
+
+span{
+    border: 5px solid green;
+    text-transform: uppercase;
+}
