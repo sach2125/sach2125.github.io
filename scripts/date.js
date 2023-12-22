@@ -17,6 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const resultContainer = document.getElementById('resultContainer');
 
     // Выводим результат в созданный элемент
-    const result = `Сегодня: ${formattedCurrentDate}, день недели<br>Дата последней модификации: ${formattedLastModifiedDate}`;
+    const result = `Сегодня: ${formattedCurrentDate}<br>Дата последней модификации: ${formattedLastModifiedDate}`;
     resultContainer.innerHTML = result;
 });
